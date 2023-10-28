@@ -1,0 +1,202 @@
+body{
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.login{
+    display: flex;
+    width:20vw;
+    border: 2px solid black;
+   
+}
+
+a{
+    text-decoration: none;
+}
+.btnone{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 12vw;
+    font-size: 2em;
+    font-weight: bold;
+    align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
+.btnone:hover{
+    background-color: rgb(130, 130, 229);
+   
+}
+
+
+.home,.register,.login{
+    border: 10px solid oldlace;
+    border-radius: 0px 10% 0px 15%;
+    width: 32vw;
+    height: 60vh;
+    margin: auto;
+    /* background-image: linear-gradient(to left, #e6f2ff); */
+    background-color:  #99bbff9c;
+    animation: round 5s linear infinite;
+
+    
+    
+}
+@keyframes round {
+    0%{
+        border-color: oldlace;
+    }
+    25%{
+        border-color: rgb(13, 32, 240);
+    }
+    50%{
+        border-color: rgb(17, 18, 18);
+    }
+    75%{
+        border-color: rgb(248, 72, 13);
+    }
+    100%{
+        border-color: chartreuse;
+    }
+}
+
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   color: black;
+   font-size:3em;
+}
+
+.imagehome{
+    position: absolute;
+    left: 50%;
+    border: 2px solid black;  
+}
+
+.msg{
+    text-align: center;
+    font-size: 5em;
+}
+
+.logoutbtn{
+    height: 8vh;
+    width: 10vw;
+    background-color: rgba(15, 30, 30, 0.384);
+    margin: auto;
+    position: relative;
+    left: 11vw;
+    border-radius: 10px;
+}
+
+
+
+
+/* **********************regiter************************************************ */
+
+
+.name{
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 8vw;
+    top: 4vh;
+}
+.nameinput{
+    height: 4vh;
+    position: relative;
+    left: 10vw;
+    top: 3.5vh;
+    border-radius: 10px;
+}
+.phone{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.email{
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 8vw;
+    top: 5vh;
+}
+
+.emailinput{
+    height: 4vh;
+    position: relative;
+    left:10.5vw;
+    top: 3.5vh;
+    border-radius: 10px;
+}
+
+.password{
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+
+}
+
+.passwordinput{
+    height: 4vh;
+    position: relative;
+    left: 6.6vw;
+    top: 4vh;
+    border-radius: 10px;
+}
+
+.number{
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 5vw;
+    top: 6vh;
+
+}
+
+.phoneinput{
+     height: 4vh;
+    position: relative;
+    left: 7.8vw;
+    right:0vw;
+
+    top: 4vh;
+    border-radius: 10px;
+
+}
+.phone{
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 6vw;
+    top: 5vh;
+
+}
+.submitbtn{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    top: 10vh;
+    left: 12vw;
+   background-color: blue;
+}
+
+
+.loginbtn{
+    height: 6vh;
+    background-color: blue;
+    width: 10vw;
+    position: relative;
+    top: 8vh;
+    left: 11vw;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
