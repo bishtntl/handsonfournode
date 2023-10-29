@@ -29,8 +29,33 @@ a{
     background-color: rgb(130, 130, 229);
    
 }
+.site{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    font-size: 5em;
+    animation: site 5s linear infinite;
+    background-color:white;
+    border-radius: 20px;
+}
+@keyframes site {
 
-
+    0%{
+        color: black;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: red;
+    }
+    75%{
+        color:palegreen;
+    }
+    100%{
+        color: blueviolet;
+    }
+}
 .home,.register,.login{
     border: 10px solid oldlace;
     border-radius: 0px 10% 0px 15%;
