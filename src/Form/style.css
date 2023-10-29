@@ -31,8 +31,8 @@ a{
 }
 .site{
     position: absolute;
-    left: 25%;
-    top: 30%;
+    left: 22%;
+    top: 0%;
     font-size: 5em;
     animation: site 5s linear infinite;
     background-color:white;
