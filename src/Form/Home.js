@@ -30,7 +30,7 @@ function Home(){
     return(
        <div className="home">
        
-       <marquee  className="heading"  direction="left"> 🏠 Welcome To Home Page 🏡</marquee>
+       <h1  className="heading"  direction="left"> 🏠 Welcome To Home Page 🏡</h1>
        
       
        

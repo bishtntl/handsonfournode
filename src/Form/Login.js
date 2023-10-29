@@ -41,7 +41,7 @@ e.preventDefault()
     return(
         <div className="login">
         <form>
-      <marquee className="heading">Login Page</marquee>
+      <h1 className="headingtwo">Login Page</h1>
       <label htmlFor="email" className="email">Email</label>
       <input type="email" name="email" id="email" placeholder="enter your email" value={user.email} onChange={changeme} className="emailinput"/><br/>
       <label htmlFor="password" className="password">Password</label>

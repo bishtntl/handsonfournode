@@ -50,7 +50,7 @@ function RegisterButton(){
 
 return(
     <div className="register">
-       <marquee  className="heading" >Register Page</marquee>
+       <h1  className="heading" >Register Page</h1>
     <form onSubmit={handleSubmit}>
         
         <label htmlFor="name" className="name">Name</label>

@@ -68,8 +68,17 @@ a{
     text-align: center;
    color: black;
    font-size:3em;
+   /* border: 2px solid black; */
 }
 
+.headingtwo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 32vw;
+    text-align: center;
+    color: black;
+    font-size:3em;
+
+}
 .imagehome{
     position: absolute;
     left: 50%;
