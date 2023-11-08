@@ -12,13 +12,13 @@ function RegisterButton(){
         password:""
     })
 
-    // const [store,setStore]=useState([])
+   
     const changeHandle=(e)=>{
         setData({
         ...data,[e.target.name]:e.target.value
     })
     }
-    // console.log(data)
+    
 
     
 
@@ -32,9 +32,14 @@ function RegisterButton(){
              alert(res.data.msg)
           //    setStore(res.data)
              localStorage.setItem('token',res.data.token)
-             Navi("/login")
-  
+             
+             if(data.name.length>=5
+                 && data.phone.length===10 && data.email.length>=5 && data.password.length>=3){
+                  Navi("/login")
+             }
+            
             })
+            .catch(err=>console.log(err))
 
 
             setData({
@@ -44,6 +49,8 @@ function RegisterButton(){
                 password:""
               })
           console.log(data)
+
+
          
 
   }
@@ -62,7 +69,8 @@ return(
         <input type="password" name="password" palceholder="enter your password" value={data.password}  id="password"  autoComplete="off" onChange={changeHandle} className="passwordinput"/><br/>
         <label htmlFor="num" className="phone">Number</label>
         <input type='number' name="phone" palceholder="enter your number" id="num" value={data.phone}  autoComplete="off"  onChange={changeHandle} className="phoneinput"/><br/>
-        <button type="submit" className="submitbtn">Register</button>
+        <button type="submit"  
+        className="submitbtn">Register</button>
     </form>
     
 
